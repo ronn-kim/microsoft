@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container .row {
+        padding: 7%;
+    }
+
+    .container-fluid .row {
+        justify-content: space-between;
+    }
+
+    .container-fluid5 .card-title {
+        position: absolute;
+        right: 17%;
+        top: 25%;
+        color: black;
+    }
+
+    .container-fluid5 .card-text {
+        position: absolute;
+        right: 13%;
+        top: 34%;
+        color: black;
+    }
+
+    .container-fluid5 .btn {
+        position: absolute;
+        right: 17%;
+        top: 45%;
+    }
+
+    .row-context {
+        padding-top: 7%;
+        /* position:absolute; */
+
+    }
+
+    .container-fluid7 .row span {
+        background-color: #ffb900;
+    }
+
+    .empty-column {
+        padding-top: 3%;
+    }
+
+    .empty-row {
+        padding: 3%;
+    }
+
+    .row-icons {
+        position: absolute;
+        padding: 7%;
+        left: 3%;
+        display: flex;
+        justify-content: space-around;
+
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <div class="col-lg-12 col-md-6 col-sm-12">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="Microsoft_logo.svg.png" alt="Logo" width="30" height="24"
+                            class="d-inline-block align-text-top">
+                        Microsoft
+                    </a>
+                    <a class="nav-link" href="#">Microsoft 365</a>
+                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link" href="#">Copilot</a>
+                    <a class="nav-link" href="#">windows</a>
+                    <a class="nav-link" href="#">surface</a>
+                    <a class="nav-link" href="#">Xbox</a>
+                    <a class="nav-link" href="#">Deals</a>
+                    <a class="nav-link" href="#">Small Business</a>
+                    <a class="nav-link" href="#">support</a>
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    All Microsoft
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="micro-row col-lg-2 col-md-3">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="icon">
+                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <span><i class="fa-regular fa-cart-shopping" style="color: #1a1a1a;"></i></span>
+
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+        <div class="container1">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="caurosel.avif" class="d-block w-100" alt="caurosel">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Highlight-MultiCanvas-Microsoft-Copilot-App-3screens_VP4-1399x600.avif"
+                                class="d-block w-100" alt="highlight">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-3">
+                    <span><i class="fa-regular fa-message"></i></span><br>
+                    <a href="#shop surface">Shop surface device</a>
+
+
+                </div>
+
+                <div class="col-lg-5 col-md-6 col-sm-3">
+                    <a href="#shop surface">Shop surface device</a>
+
+
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-3">
+                    <span><i class="fa-light fa-keyboard"></i></span>
+                    <a href="#shop surface">Shop surface device</a>
+
+
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-3">
+                    <span></span>
+                    <a href="#shop surface">Shop surface device</a>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem">
+                        <img src="card1.jpeg" class="card-img-top" alt="card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Save up to $600 on Surface Pro 9</h5>
+                            <p class="card-text">The tablet flexibility you want and the laptop performance you
+                                need—all
+                                in
+                                one ultra-portable device. Offer ends 3/31.</p>
+                            <a href="#" class="btn btn-primary">Shop surface pro 9</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem">
+                        <img src="card2.avif" class="card-img-top" alt="card2">
+                        <div class="card-body">
+                            <h5 class="card-title">Save up to $547 on Surface Laptop Studio 2</h5>
+                            <p class="card-text">Cutting-edge design meets incredible performance in this versatile
+                                laptop
+                                perfect for
+                                everything from creativity to entertainment. Select devices on sale now. Offer ends
+                                3/31.
+                            </p>
+                            <a href="#" class="btn btn-primary">Shop Surface Laptop Studion 2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem">
+                        <img src="card4.avif" class="card-img-top" alt="card4">
+                        <div class="card-body">
+                            <h5 class="card-title">Maximize the everyday with Microsoft 365</h5>
+                            <p class="card-text">Get online protection, secure cloud storage, and innovative apps
+                                designed
+                                to fit your
+                                needs—all in one plan.</p>
+                            <a href="#" class="btn btn-primary">For 1 person</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem">
+                        <img src="Xbox-Controller-Valentine-CP-1.avif" class="card-img-top" alt="Xbox">
+                        <div class="card-body">
+                            <h5 class="card-title">Xbox controllers</h5>
+                            <p class="card-text">Elite, wireless, adaptive—find the controller that fits your style
+                                of
+                                play.
+                            </p>
+                            <a href="#" class="btn btn-primary">shop now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="container-fluid5">
+
+                <div class="card text-bg-dark">
+                    <img src="xb-ba.avif" class="card-img" alt="box">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title">Xbox Series x</h3>
+
+                        <a href="#" class="btn btn-primary">shop Xbox Series x</a>
+                        <p class="card-text">The fastest, most powerful Xbox<br> ever</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="row-context">
+            <h1>For business</h1>
+        </div>
+        <div class="container-fluid7">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem">
+                        <img src="card-1.avif" class="card-img-top" alt="card">
+                        <div class="card-body">
+                            <h4><span>New</span></h4>
+                            <h5 class="card-title">Surface Pro 10 for Business</h5>
+                            <p class="card-text">Tablet flexibility and laptop performance in an ultraportable
+                                design
+                                with
+                                the latest Intel
+                                processors and AI-powered tools.</p>
+                            <a href="#" class="btn btn-primary">Pre Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem">
+                        <img src="c2.avif" class="card-img-top" alt="c2">
+                        <div class="card-body">
+                            <h4><span>New</span></h4>
+                            <h5 class="card-title">Copilot for Microsoft 365</h5>
+                            <p class="card-text">Save time and focus on the things that matter most with AI in
+                                Microsoft
+                                365
+                                for business.</p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem">
+                        <img src="c3.jpeg" class="card-img-top" alt="c3">
+                        <div class="card-body">
+                            <h5 class="card-title">Windows 11 for business</h5>
+                            <p class="card-text"> Designed for hybrid work. Powerful for employees. Consistent for
+                                IT.
+                                Secure for all.</p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem">
+                        <img src="c4.avif" class="card-img-top" alt="c4">
+                        <div class="card-body">
+                            <h5 class="card-title">Join the era of AI</h5>
+                            <p class="card-text">Create, communicate, and code with the latest Microsoft AI
+                                solutions.
+                            </p>
+                            <a href="#" class="btn btn-primary">Explore AI solutions </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="empty-column">
+        <h4>Explore more about AI and copilot</h4>
+    </div>
+    <div class="container-fluid8">
+        
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 24rem;">
+                    <img src="t1.avif" class="card-img-top" alt="t1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 24rem;">
+                    <img src="t2.avif" class="card-img-top" alt="t2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 24rem;">
+                    <img src="t3.avif" class="card-img-top" alt="t3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="empty-row">
+
+    </div>
+    <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12"></div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="lok2.avif" class="d-block w-100" alt="lok2">
+                </div>
+                <div class="carousel-item">
+                    <img src="lok1.avif" class="d-block w-100" alt="lok1">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+    <div class="row-icons">
+        <h4>Follow microsoft</h4>
+        <span><i class="fa-brands fa-facebook-f fa-lg"></i></i></span>
+        <span><i class="fa-brands fa-x-twitter fa-xl"></i></i></span>
+        <span><i class="fa-brands fa-linkedin fa-xl"></i></span>
+
+    </div>
+
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
